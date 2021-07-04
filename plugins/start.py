@@ -7,6 +7,8 @@ async def start(client, message):
     joinButton = InlineKeyboardMarkup([
         [InlineKeyboardButton("Sahib", url="https://t.me/ShirnovCefer")],
     ])
+    JoinButton = İnlineKeyboardMarkup([
+        [İnlineKeyboardButton("Resmi Qrup" url="https://t.me/efsanevi3lu")]
     welcomed = f"Salam <b>{message.from_user.first_name}</b>\nHal-hazırda yalnız Youtube Single-i dəstəkləyir (Pleylist yoxdur) Sadəcə Youtubeden Linki Kopyalayib Buraya Yapışdırın"
     await message.reply_text(welcomed, reply_markup=joinButton)
     raise StopPropagation
