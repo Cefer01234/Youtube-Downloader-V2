@@ -5,7 +5,7 @@ from pyrogram import Client, Filters, StopPropagation, InlineKeyboardButton, Inl
 async def start(client, message):
     # return
     joinButton = InlineKeyboardMarkup([
-        [InlineKeyboardButton("Sahib", url="https://t.me/ShirnovCefer")],
+        [InlineKeyboardButton("Sahib", url="https://t.me/Shirnovff")],
     ])
     welcomed = f"Salam <b>{message.from_user.first_name}</b>\nHal-hazırda yalnız Youtube Single-i dəstəkləyir (Pleylist yoxdur) Sadəcə Youtubeden Linki Kopyalayib Buraya Yapışdırın"
     await message.reply_text(welcomed, reply_markup=joinButton)
